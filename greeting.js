@@ -1,7 +1,7 @@
 const form = document.querySelector(".js-form");
 const input = form.querySelector("input");
 const greeting = document.querySelector(".js-greetings");
-//locaal storage: 정보를 유저 컴퓨터에 저장하는 것
+//local storage: 정보를 유저 컴퓨터에 저장하는 것
 
 const USER_LS = "curntUser",
   SHOWING_ON = "showing";

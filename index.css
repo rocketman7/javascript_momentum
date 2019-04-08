@@ -21,8 +21,18 @@ body {
 }
 
 .js-clock {
-  color: gray;
+  color: rgb(50, 50, 56);
+  text-shadow: 3px 3px 2px rgb(243, 243, 243);
   font-size: 19px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /*background-color: rgb(196, 209, 176);*/
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-top: 20px;
+  height: 40px;
 }
 
 @keyframes fadeIn {

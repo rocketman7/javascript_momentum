@@ -1,4 +1,4 @@
-const clockContainer = document.querySelector(".js-clock");
+const clockContainer = document.querySelector(".js-clock"); //querySelector로 객체지정
 const clockTitle = clockContainer.querySelector("h1");
 
 function getTime() {
@@ -14,7 +14,7 @@ function getTime() {
 
 function init() {
   getTime();
-  setInterval(getTime, 1000); //ms 단위
+  setInterval(getTime, 1000); //ms 단위, refresh주기
 }
 
 init();

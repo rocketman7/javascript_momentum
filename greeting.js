@@ -12,7 +12,7 @@ function saveName(text) {
 
 function handleSubmit(event) {
   event.preventDefault(); //default로 돌아가는 것을 방지
-  const curntValue = input.value;
+  const curntValue = input.value; //input에 들어온 값
   // console.log(curntValue);
   paintGreeting(curntValue);
   saveName(curntValue);
@@ -37,6 +37,7 @@ function loadName() {
     paintGreeting(curntUser);
   }
 }
+
 function init() {
   loadName();
 }
